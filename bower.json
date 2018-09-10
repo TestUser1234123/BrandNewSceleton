@@ -1,0 +1,21 @@
+{
+  "name": "brandnewskeleton",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "Georgi Yonchev"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "bootstrap": "^4.1.3"
+  }
+}

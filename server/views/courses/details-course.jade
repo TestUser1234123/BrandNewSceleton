@@ -1,0 +1,15 @@
+extends ../includes/layout
+
+block main-content
+    .container
+        .jumbotron.jumbotron-fluid
+            .container
+                h1.display-4= course.title
+                p.lead Tags: 
+                    each tag, i in course.tags
+                        spam= (i === 0 ? '' : ', ') + (tag || "N/A")
+                p.lead='Created at: ' + moment(course.published).format("YYYY/MM/DD")
+                form(action="/courses/delete" method="post")
+                    input(name="id" type="hidden" value=course._id)
+                    input.btn.btn-danger(type="submit" value="Delete") 
+

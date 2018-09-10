@@ -1,0 +1,14 @@
+extends ../includes/layout
+
+block main-content
+    form(method="post" action="add")
+        .form-group
+            label(for="title") Title
+            input#title.form-control(type="text" placeholder="Title" name="title")
+        .form-group
+            label(for="tags") Tags
+            input#tags.form-control(type="text" placeholder="C#, JavaScript" name="tags")
+        .form-group.form-check
+            input#featured.form-check-input(type="checkbox", name="featured")
+            label.form-check-label(for="featured") Featured
+        button.btn.btn-primary(type="submit") Add

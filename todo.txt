@@ -1,0 +1,16 @@
+change db connection string
+check if you use last two 'use's in express.js
+
+check npm and bower libs if you need
+
+in package.json change - the name of the application
+in bower.json change - the name of the application
+
+Delete courses
+login on different page than home doesnt work properly.
+check isAuthenticated() if you need it
+
+
+IN CONFIG AUTH you have a todo
+IN Server controllers UsersControllers you have a TODO
+

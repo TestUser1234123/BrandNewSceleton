@@ -1,0 +1,10 @@
+body {
+  padding-top: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#footer {
+  border-top: #808080 solid 1px;
+  margin-top: 50px;
+  padding-top: 10px;
+}
